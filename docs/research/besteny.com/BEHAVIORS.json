@@ -1,0 +1,7 @@
+{
+  "scrollBehavior": "",
+  "smoothScroll": "enabled",
+  "animations": 3,
+  "hasStickyHeader": false,
+  "hasScrollSpy": true
+}

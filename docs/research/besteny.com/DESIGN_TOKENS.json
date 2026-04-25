@@ -1,0 +1,64 @@
+{
+  "colors": {
+    "text": [
+      "rgb(0, 0, 0)",
+      "rgb(51, 51, 51)",
+      "rgb(255, 255, 255)",
+      "rgb(102, 102, 102)",
+      "rgb(0, 65, 150)",
+      "rgb(0, 0, 0) rgb(242, 242, 242) rgb(242, 242, 242) rgb(0, 0, 0)",
+      "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(217, 217, 217)",
+      "rgb(117, 4, 6)",
+      "rgb(23, 35, 61)",
+      "rgb(77, 81, 88)",
+      "rgb(153, 153, 153)",
+      "rgb(6, 77, 159)",
+      "rgb(170, 212, 255)",
+      "rgb(34, 34, 34)",
+      "rgb(242, 242, 242)",
+      "rgb(79, 80, 233)",
+      "rgb(51, 51, 51) rgb(51, 51, 51) rgb(204, 204, 204)",
+      "rgb(170, 170, 170)",
+      "rgb(51, 51, 51) rgb(51, 51, 51) rgb(219, 219, 219)",
+      "rgb(173, 173, 173)"
+    ],
+    "background": [
+      "rgb(255, 255, 255)",
+      "rgb(0, 99, 255)",
+      "rgb(0, 65, 150)",
+      "rgb(40, 105, 190)",
+      "rgb(80, 145, 230)",
+      "rgb(242, 242, 242)",
+      "rgba(6, 77, 159, 0.1)",
+      "rgb(0, 63, 127)",
+      "rgb(241, 241, 243)",
+      "rgb(217, 227, 240)",
+      "rgb(66, 66, 66)",
+      "rgb(79, 80, 233)",
+      "rgb(246, 246, 246)",
+      "rgba(255, 255, 255, 0.5)",
+      "rgba(234, 234, 234, 0)",
+      "rgba(181, 149, 25, 0)",
+      "rgb(3, 21, 62)"
+    ]
+  },
+  "typography": {
+    "body": {
+      "fontFamily": "\"microsoft yahei\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "45px",
+      "letterSpacing": "normal"
+    }
+  },
+  "spacing": {},
+  "shadows": {},
+  "borderRadius": {},
+  "fonts": {
+    "fontLinks": [
+      "https://www.besteny.com/css/comm/font/css/font-awesome.min.css",
+      "https://www.besteny.com/css/comm/iconfont.css?1"
+    ],
+    "googleFonts": []
+  }
+}

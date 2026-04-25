@@ -7,9 +7,24 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+  --font-sans: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, monospace;
   --font-heading: var(--font-sans);
+
+  /* Custom colors for besteny.com */
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-purple: var(--brand-purple);
+  --color-brand-red: var(--brand-red);
+  --color-brand-dark: var(--brand-dark);
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-surface-strong: var(--surface-strong);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-highlight: var(--highlight);
+  --color-highlight-foreground: var(--highlight-foreground);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,38 +64,72 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* besteny.com brand colors */
+  --brand-primary: #004196;
+  --brand-accent: #0063ff;
+  --brand-purple: #4f50e9;
+  --brand-red: #c41e3a;
+  --brand-dark: #17233d;
+  --highlight: #e8f1ff;
+  --highlight-foreground: #0f2a59;
+
+  /* Layout rhythm tokens */
+  --site-max-width: 1280px;
+  --space-section-y: clamp(3.5rem, 7.5vw, 6rem);
+  --space-section-y-sm: clamp(2.75rem, 6vw, 4.25rem);
+  --measure-content: min(68ch, 100%);
+  --shadow-soft: 0 8px 30px rgb(0 65 150 / 10%);
+  --shadow-medium: 0 16px 45px rgb(10 34 71 / 18%);
+  --hero-overlay: linear-gradient(
+    125deg,
+    rgb(8 18 38 / 55%) 0%,
+    rgb(14 42 87 / 44%) 55%,
+    rgb(8 18 38 / 35%) 100%
+  );
+  --page-backdrop:
+    radial-gradient(80% 45% at 10% 5%, rgb(0 99 255 / 11%) 0%, transparent 64%),
+    radial-gradient(58% 34% at 90% 0%, rgb(79 80 233 / 10%) 0%, transparent 68%),
+    linear-gradient(180deg, #f8fbff 0%, #ffffff 52%, #f6f9ff 100%);
+
+  /* Base colors */
+  --background: #ffffff;
+  --foreground: #333333;
+  --surface: #ffffff;
+  --surface-soft: #f4f7fb;
+  --surface-strong: #e9f0fb;
+  --text-primary: #17233d;
+  --text-secondary: #45536f;
+  --text-tertiary: #6f7a8f;
+  --card: #ffffff;
+  --card-foreground: #333333;
+  --popover: #ffffff;
+  --popover-foreground: #333333;
+  --primary: #004196;
+  --primary-foreground: #ffffff;
+  --secondary: #f2f2f2;
+  --secondary-foreground: #333333;
+  --muted: #f2f2f2;
+  --muted-foreground: #666666;
+  --accent: #0063ff;
+  --accent-foreground: #ffffff;
+  --destructive: #c41e3a;
+  --border: #d9d9d9;
+  --input: #d9d9d9;
+  --ring: #004196;
+  --chart-1: #004196;
+  --chart-2: #0063ff;
+  --chart-3: #4f50e9;
+  --chart-4: #40a9ff;
+  --chart-5: #69c0ff;
+  --radius: 4px;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #333333;
+  --sidebar-primary: #004196;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f2f2f2;
+  --sidebar-accent-foreground: #333333;
+  --sidebar-border: #d9e3f0;
+  --sidebar-ring: #004196;
 }
 
 .dark {
@@ -122,9 +171,132 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-text-primary;
+    background-image: var(--page-backdrop);
+    background-attachment: fixed;
   }
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-balance;
+  }
+  p {
+    @apply text-pretty;
+  }
+}
+
+@layer components {
+  .site-shell {
+    @apply mx-auto w-full px-4 sm:px-6 lg:px-8;
+    max-width: var(--site-max-width);
+  }
+
+  .section-pad {
+    padding-block: var(--space-section-y);
+  }
+
+  .section-pad-sm {
+    padding-block: var(--space-section-y-sm);
+  }
+
+  .section-head {
+    @apply mb-10 text-center md:mb-14;
+  }
+
+  .section-title {
+    @apply text-3xl font-semibold tracking-tight text-brand-primary md:text-4xl;
+  }
+
+  .section-eyebrow {
+    @apply mt-3 inline-block text-xs font-medium tracking-[0.28em] text-text-tertiary uppercase;
+  }
+
+  .section-copy {
+    @apply text-base leading-8 text-text-secondary md:text-lg;
+  }
+
+  .content-measure {
+    max-width: var(--measure-content);
+  }
+
+  .surface-card {
+    @apply rounded-2xl border border-white/70 bg-white/90 shadow-[var(--shadow-soft)] backdrop-blur-sm;
+  }
+
+  .hover-lift {
+    @apply transition-transform duration-300 ease-out hover:-translate-y-1;
+  }
+
+  .hero-overlay {
+    background: var(--hero-overlay);
+  }
+
+  .fade-up {
+    animation: fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  .fade-up-delay {
+    animation: fade-up 0.95s cubic-bezier(0.16, 1, 0.3, 1) 0.16s both;
+  }
+
+  .fade-up-delay-2 {
+    animation: fade-up 1.05s cubic-bezier(0.16, 1, 0.3, 1) 0.24s both;
+  }
+
+  [data-reveal][data-reveal-state="pending"] {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity 0.72s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.72s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, opacity;
+  }
+
+  [data-reveal][data-reveal-state="visible"] {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  [data-reveal="1"][data-reveal-state="pending"] {
+    transition-delay: 80ms;
+  }
+
+  [data-reveal="2"][data-reveal-state="pending"] {
+    transition-delay: 150ms;
+  }
+
+  [data-reveal="3"][data-reveal-state="pending"] {
+    transition-delay: 220ms;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }

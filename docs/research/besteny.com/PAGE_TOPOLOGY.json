@@ -1,0 +1,104 @@
+{
+  "title": "国新（河南）能源技术有限公司-河南-风电场检测、光伏电站检测、储能电站检测、新能源电池检测、仿真建模",
+  "url": "https://www.besteny.com/",
+  "totalHeight": 3571,
+  "viewportHeight": 600,
+  "sections": [
+    {
+      "index": 0,
+      "tagName": "DIV",
+      "className": "view style_01 banner  ",
+      "id": "banner_style_01_1588819507114",
+      "rect": {
+        "x": 0,
+        "y": 208,
+        "width": 800,
+        "height": 400
+      },
+      "position": "absolute",
+      "zIndex": "1",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "index": 1,
+      "tagName": "DIV",
+      "className": "bannerStyle_1 normal",
+      "id": "",
+      "rect": {
+        "x": 0,
+        "y": 208,
+        "width": 800,
+        "height": 400
+      },
+      "position": "relative",
+      "zIndex": "auto",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "index": 2,
+      "tagName": "DIV",
+      "className": "view style_04 banner  ",
+      "id": "banner_style_04_1736085541587",
+      "rect": {
+        "x": 0,
+        "y": 2243.921875,
+        "width": 800,
+        "height": 200
+      },
+      "position": "absolute",
+      "zIndex": "1",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "index": 3,
+      "tagName": "DIV",
+      "className": "bannerStyle_4",
+      "id": "",
+      "rect": {
+        "x": 0,
+        "y": 2243.921875,
+        "width": 800,
+        "height": 200
+      },
+      "position": "relative",
+      "zIndex": "auto",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "index": 4,
+      "tagName": "DIV",
+      "className": "view footerDh_01 footerCustom  lockHeightView ",
+      "id": "footerCustom_footerDh_01_1731230687927",
+      "rect": {
+        "x": 294.25,
+        "y": 3335.875,
+        "width": 246.75,
+        "height": 144
+      },
+      "position": "absolute",
+      "zIndex": "999",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "index": 5,
+      "tagName": "DIV",
+      "className": "menu footerCustom_01",
+      "id": "menu",
+      "rect": {
+        "x": 294.25,
+        "y": 3335.875,
+        "width": 246.75,
+        "height": 144
+      },
+      "position": "relative",
+      "zIndex": "auto",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    }
+  ]
+}

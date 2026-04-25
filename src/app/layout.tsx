@@ -1,20 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { ScrollReveal } from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "山东源讯通电力科技有限公司 - 风电场检测、光伏电站检测、储能电站检测",
+  description: "山东源讯通电力科技有限公司专业从事风电场检测、光伏电站检测、储能电站检测、新能源电池检测、仿真建模等服务。",
+  icons: {
+    icon: "/seo/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="zh-CN" className="h-full antialiased" data-scroll-behavior="smooth">
+      <body className="min-h-full flex flex-col font-sans">
+        {children}
+        <ScrollReveal />
+      </body>
     </html>
   );
 }

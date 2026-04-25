@@ -1,0 +1,152 @@
+[
+  {
+    "type": "button",
+    "text": "<",
+    "className": "btn_prev arrowSet",
+    "styles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "borderRadius": "0px",
+      "padding": "0px 12px",
+      "fontSize": "36px"
+    }
+  },
+  {
+    "type": "button",
+    "text": ">",
+    "className": "btn_next arrowSet",
+    "styles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "borderRadius": "0px",
+      "padding": "0px 12px",
+      "fontSize": "36px"
+    }
+  },
+  {
+    "type": "button",
+    "text": "了解详情",
+    "className": "button_default02  btnaSet",
+    "styles": {
+      "backgroundColor": "rgb(0, 65, 150)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "5px",
+      "padding": "0px",
+      "fontSize": "16px"
+    }
+  },
+  {
+    "type": "button",
+    "text": "了解更多 →",
+    "className": "button_default10  btnaSet",
+    "styles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "25px",
+      "padding": "0px",
+      "fontSize": "12px"
+    }
+  },
+  {
+    "type": "button",
+    "text": "了解更多>",
+    "className": "button_default03  btnaSet",
+    "styles": {
+      "backgroundColor": "rgb(79, 80, 233)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "fontSize": "14px"
+    }
+  },
+  {
+    "type": "button",
+    "text": "了解更多>",
+    "className": "button_default03  btnaSet",
+    "styles": {
+      "backgroundColor": "rgb(0, 65, 150)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "fontSize": "14px"
+    }
+  },
+  {
+    "type": "button",
+    "text": "了解更多>",
+    "className": "button_default03  btnaSet",
+    "styles": {
+      "backgroundColor": "rgb(79, 80, 233)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "fontSize": "14px"
+    }
+  },
+  {
+    "type": "button",
+    "text": "了解更多>",
+    "className": "button_default03  btnaSet",
+    "styles": {
+      "backgroundColor": "rgb(0, 65, 150)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "fontSize": "14px"
+    }
+  },
+  {
+    "type": "button",
+    "text": "了解更多>",
+    "className": "button_default03  btnaSet",
+    "styles": {
+      "backgroundColor": "rgb(79, 80, 233)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "fontSize": "14px"
+    }
+  },
+  {
+    "type": "button",
+    "text": "了解更多>",
+    "className": "button_default03  btnaSet",
+    "styles": {
+      "backgroundColor": "rgb(0, 65, 150)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "fontSize": "14px"
+    }
+  },
+  {
+    "type": "navigation",
+    "tagName": "DIV",
+    "className": "menu menuStyle_28",
+    "itemCount": 83
+  },
+  {
+    "type": "navigation",
+    "tagName": "DIV",
+    "className": "menuLayout",
+    "itemCount": 83
+  },
+  {
+    "type": "navigation",
+    "tagName": "UL",
+    "className": "miniMenu columnSet showmobile",
+    "itemCount": 43
+  },
+  {
+    "type": "navigation",
+    "tagName": "DIV",
+    "className": "nav",
+    "itemCount": 0
+  },
+  {
+    "type": "navigation",
+    "tagName": "DIV",
+    "className": "sidebar icoMenuSet",
+    "itemCount": 0
+  }
+]
