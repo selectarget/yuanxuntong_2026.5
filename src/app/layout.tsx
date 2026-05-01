@@ -4,7 +4,7 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "山东源讯通电力科技有限公司 - 风电场检测、光伏电站检测、储能电站检测",
-  description: "山东源讯通电力科技有限公司专业从事风电场检测、光伏电站检测、储能电站检测、新能源电池检测、仿真建模等服务。",
+  description: "山东源讯通电力科技有限公司专业从事风电场检测、光伏电站检测、储能电站检测、构网型储能检测、仿真建模等服务。",
   icons: {
     icon: "/seo/favicon.ico",
   },

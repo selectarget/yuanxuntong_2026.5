@@ -88,10 +88,10 @@ export const services: ServiceItem[] = [
   },
   {
     id: "4",
-    title: "新能源电池检测",
-    description: "动力电池、储能电池性能检测与安全评估服务",
+    title: "构网型储能检测",
+    description: "构网型储能系统并网性能、涉网特性及频率电压主动支撑能力测试与评估服务",
     icon: "/images/17343201835602e256a453171ab97214e58937a13716d.webp",
-    link: "/services/battery",
+    link: "/services/grid-forming",
   },
   {
     id: "5",
@@ -109,6 +109,7 @@ export const services: ServiceItem[] = [
   },
 ];
 
+/*
 export const caseStudies: CaseStudy[] = [
   {
     id: "1",
@@ -153,6 +154,10 @@ export const caseStudies: CaseStudy[] = [
     link: "#case6",
   },
 ];
+*/
+
+// 提供一个空数组以防其他组件（如 CasesSection）导入时报错
+export const caseStudies: CaseStudy[] = [];
 
 export const stats: StatItem[] = [
   { id: "1", value: "10+", label: "年行业经验" },
@@ -181,7 +186,7 @@ export const footerSections: FooterSection[] = [
       { label: "风电场检测", href: "/services/wind" },
       { label: "光伏电站检测", href: "/services/solar" },
       { label: "储能电站检测", href: "/services/storage" },
-      { label: "新能源电池检测", href: "/services/battery" },
+      { label: "构网型储能检测", href: "/services/grid-forming" },
       { label: "仿真建模", href: "/services/simulation" },
     ],
   },
